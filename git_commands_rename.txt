@@ -1,0 +1,30 @@
+I want to learn git and github.
+
+Commands:
+1. git init -> Initialize a folder to a git repository
+2. rm -rf .git -> Initialize a git repository to normal folder(Opposite of git init)
+3. git status -> check the status of git or normal repository
+4. git add --a -> add all files of the particular repository to the staging area.
+5. git add file_name -> add the file_name to the staging area
+6. git commit -m "commit_message" -> file changes(snapshots) are saved and tracked to git repository
+7. git log -> display a list of all changes, commit and histories
+8. git clone https://url rename_if you wanna apply -> clone other's repository in local machine
+9. pwd(full form present working directory) -> can check the woring directory
+10. ls(list) -> show the present files of list
+11. cd folder_name/ -> change directory
+12. touch file_name.extension -> generates new file withthe name and extension
+13. git diff -> compares the changed staging area files with working directory files
+14. git diff --staged -> compares the changed staging area files with previous commited files after adding files in staging area
+15. git commit -a -m "commit_message" -> It commits all tracked files but it does not do anything to the untracked files.
+16. git rm file_name.extension -> removes or delets the file
+17. git mv file_name.extension file_rename.extension -> moves/renames a particular file name
+18. git rm --cached file_name.extension -> It is used to untracked the previously tracked files. If there is any need to untrack a tracked file in future. Then we have to expplicitely tell the git to untrack and then add the file _name in .gitignore
+19. git log -p -> can show all the commit with changes
+20. git log -p -number -> show only particular number of commit with changes
+21. git log --stat -> can show the commit with changes in very short and readible
+22. git log --pretty=oneline -> can show the commit with changes in 1 line and readible
+23.  git log --pretty=short -> can show the commit with changes in short and readible
+24.  git log --pretty=full -> can show the commit with changes in full detail
+25. git log --since=2.days/weeks/months -> can show the commit and changes of privious 2 days
+26. git log --pretty=format: "syntax in online" --> filtering in logs for searching
+27. git commit -amend -> can modify or edit previous commit
