@@ -28,3 +28,5 @@ Commands:
 25. git log --since=2.days/weeks/months -> can show the commit and changes of privious 2 days
 26. git log --pretty=format: "syntax in online" --> filtering in logs for searching
 27. git commit -amend -> can modify or edit previous commit
+28. git restore --staged file_name.extension -> unstage the staged file
+
