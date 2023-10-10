@@ -31,4 +31,11 @@ Commands:
 28. git restore --staged file_name.extension -> unstage the staged file
 29. git checkout -- file_name.extension -> roll back to the previous changes(previous commit) of a particular file which is already staged but not commited yet.
 30. git checkout -f -> roll back to the previous changes(previous commit) of all changed files which is already staged but not commited yet.
+31. git remote add origin(any origin/URL name can be choosen by user) https//:url -> to add git repository to remote server(online)
+32. git remote -v -> shows the push and pull url for online server
+Example -> 
+origin https://github.com/rittick21/Git_Tutorial.git (fetch)
+origin https://github.com/rittick21/Git_Tutorial.git (push)
+33. git push origin master -> push the changes of code to remote repository
+
 
