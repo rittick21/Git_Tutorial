@@ -37,5 +37,7 @@ Example ->
 origin https://github.com/rittick21/Git_Tutorial.git (fetch)
 origin https://github.com/rittick21/Git_Tutorial.git (push)
 33. git push origin master -> push the changes of code to remote repository
+34. git config --global alias.st status -> You can asign your status word to st
+35. 
 
 
