@@ -38,6 +38,9 @@ origin https://github.com/rittick21/Git_Tutorial.git (fetch)
 origin https://github.com/rittick21/Git_Tutorial.git (push)
 33. git push origin master -> push the changes of code to remote repository
 34. git config --global alias.st status -> You can asign your status word to st
-35. 
+35. git checkout -b branch_name -> create new branch from existing branch with branch_name and place to the branch
+36.  git checkout master -> redirect to the master branch from other branch
+37. git checkout branch_name -> redirect to the branch_name branch from other branch if exist
+
 
 
