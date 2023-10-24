@@ -42,6 +42,7 @@ origin https://github.com/rittick21/Git_Tutorial.git (push)
 36.  git checkout master -> redirect to the master branch from other branch
 37. git checkout branch_name -> redirect to the branch_name branch from other branch if exist
 38. git branch -> list all the existing branch
+39. git merge branch_name -> merge the changes of branch to the parent branch
 
 
 
